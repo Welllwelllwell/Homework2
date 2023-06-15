@@ -5,6 +5,6 @@
 
 System.Console.WriteLine("Введите трехзначное число");
 int numberA = Convert.ToInt32(Console.ReadLine());
-int numberB= numberA/10;
-int numberC= numberB%10;
+int numberB = numberA / 10;
+int numberC = numberB % 10;
 System.Console.WriteLine(numberC);
