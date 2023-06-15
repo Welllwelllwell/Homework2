@@ -6,13 +6,13 @@
 
 System.Console.WriteLine("Введите число");
 int numberA = Convert.ToInt32(Console.ReadLine());
-if (numberA<100)
+if (numberA < 100)
 {
     System.Console.WriteLine("Нет третьей цифры");
 }
-if (numberA>100)
+if (numberA > 100)
 {
-    while (numberA>1000) numberA /=10;
-    int numberB=numberA%10;
+    while (numberA > 1000) numberA /= 10;
+    int numberB = numberA % 10;
     System.Console.WriteLine(numberB);
 }
